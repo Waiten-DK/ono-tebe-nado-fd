@@ -41,9 +41,10 @@
 }
 
 .address {
-    padding-left: 184px;
+    padding-left: 190px;
+    padding-bottom: 5px;
     font-size: 18px;
-    line-height: 24.3px;
+    line-height: 25px;
     letter-spacing: 0.18px;
     list-style-type: none; 
     font-style: normal;
@@ -51,7 +52,6 @@
 
 .content {
     background-color: #fff;
-    
 }
 
 .cover {
@@ -137,45 +137,47 @@
     line-height: 51px;
     font-weight: 500;
     text-align: center;
+    margin-left: 10px;
+}
+
+.lots {
+    padding: 180px 24px 2px 24px;
 }
 
 .title__lots {
-    padding-top: 180px;
+    padding-left: 40px;
     padding-bottom: 27px;
-    padding-left: 64px;
-    color: #000;
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
     text-transform: uppercase;
+    color: #000;
 }
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
     gap: 25px;
-    justify-content: start;
-    margin: 0 auto;
-    margin-left: 24px;
 }
 
-.lots__card-list {
+.lots__card-list-item {
+    display: flex;
     max-width: 334px;
-    min-height: 596px;
 }
 
 .card{
     position: relative;
     z-index: 1;
-    padding:51px 40px 48px 40px;
-    height: 100%;
+    padding:49px 40px 48px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.card-size {
     background-repeat: no-repeat;
     background-position: center;
-    list-style: none;
+    background-size: cover;
 }
 
 .card_type_film  {
@@ -209,8 +211,8 @@
 
 .lots__look-more-link {
     display: block;
-    padding:29px;
-    margin-left: 36px;
+    padding:30px;
+    margin-left: 11px;
     font-weight: 400;
     font-size: 20px;
     color: #000;
@@ -277,7 +279,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #fff;
-    padding:142px 0px;
+    padding-top: 140px;
 }
 
 .footer__address {
@@ -288,7 +290,7 @@
     font-size: 18px; 
     line-height: 24px;
     color: #000;
-    padding-left: 50px;
+    padding-left:50px;
 }
 
 .footer__menu {
@@ -300,7 +302,7 @@
 }
 
 .footer__menu-list {
-    padding-left: 12px;
+    padding-left: 3px;
 }
 
 .footer__menu-list-item {
@@ -312,7 +314,7 @@
 .footer__social-list-item {
     display:flex;
     gap:48px;
-    padding-left:80px ;
+    padding-left:75px ;
 }
 .footer__social-icon {
     width: 48px;
